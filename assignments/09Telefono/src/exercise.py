@@ -1,8 +1,9 @@
-def main():
-    #escribe tu código abajo de esta línea
-    #Leer los datos
-    pass
+def main (cost, messages, megas, mins):
+    return (float)((cost*messages)+(cost*megas)+(cost*mins))
 
+cost = 0.8
+messages = int(input("How many messages were sent: "))
+megas = float(input("How many megas were used: "))
+mins = int(input("How many mins were spent: "))
 
-if __name__ == '__main__':
-    main()
+print("Your total price is:", main (cost, messages, megas, mins))
