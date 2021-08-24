@@ -1,6 +1,7 @@
-def main():
-    #escribe tu código abajo de esta línea
-    pass
+def main (distance, time):
+    return (float)(distance*time)
 
-if __name__ == '__main__':
-    main()
+distance = 0.57
+time = int(input("How many mins went by: "))
+
+print("The snail covered", main (distance, time), "centimeters")
