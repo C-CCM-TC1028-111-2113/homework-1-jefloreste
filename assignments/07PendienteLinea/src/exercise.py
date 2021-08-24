@@ -1,8 +1,9 @@
-def main():
-    #escribe tu código abajo de esta línea
-    #Lee los datos
-    pass
+def main (x1, y1, x2, y2):
+    return (float)(y2-y1)/(x2-x1)
 
+x1 = float(input('x1 = '))
+y1 = float(input('y1 = '))
+x2 = float(input('x2 = '))
+y2 = float(input('y2 = '))
 
-if __name__ == '__main__':
-    main()
+print('Slope is=', main(x1, y1, x2, y2))
